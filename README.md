@@ -32,7 +32,7 @@ $ composer create-project --prefer-dist nuxed/nuxed my-app
 #### Start
 
 Nuxed skelecton comes with few handy composer scripts.
-To run the application, simple call composer `deploy` in your terminal:
+you can run the application by issuing the Composer `deploy` script in your terminal:
 
 ```console
 $ cd my-app
