@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cba690cf510a59ccf0369f3b811f3e4e",
+    "content-hash": "2da8dfe9f632c31f9b5248b3543b3c9b",
     "packages": [
         {
             "name": "facebook/fbmarkdown",
@@ -327,16 +327,16 @@
         },
         {
             "name": "nuxed/framework",
-            "version": "dev-master",
+            "version": "0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nuxed/framework.git",
-                "reference": "6cd0626bce2dfb038867cfb38c4f7e43c61d851c"
+                "reference": "cd002e56e3845d3cea7606c138e32927287db403"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nuxed/framework/zipball/6cd0626bce2dfb038867cfb38c4f7e43c61d851c",
-                "reference": "6cd0626bce2dfb038867cfb38c4f7e43c61d851c",
+                "url": "https://api.github.com/repos/nuxed/framework/zipball/cd002e56e3845d3cea7606c138e32927287db403",
+                "reference": "cd002e56e3845d3cea7606c138e32927287db403",
                 "shasum": ""
             },
             "require": {
@@ -396,7 +396,7 @@
                 "hhvm",
                 "nuxed"
             ],
-            "time": "2019-02-21T15:02:54+00:00"
+            "time": "2019-02-21T18:14:43+00:00"
         }
     ],
     "packages-dev": [
@@ -517,11 +517,9 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "dev",
-    "stability-flags": {
-        "nuxed/framework": 20
-    },
-    "prefer-stable": true,
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": []
