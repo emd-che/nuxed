@@ -16,7 +16,7 @@
 
 ### Getting Started
 
-#### Requirments
+#### Requirements
 
 - HHVM 4+
 - Composer Package Manager
