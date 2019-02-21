@@ -4,7 +4,7 @@
     "type": "project",
     "license": "MIT",
     "require": {
-        "nuxed/framework": "dev-master"
+        "nuxed/framework": "^0.1"
     },
     "require-dev": {
         "hhvm/hhast": "^4.0"
@@ -17,8 +17,6 @@
     "config": {
         "sort-packages": true
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "scripts": {
         "lint": "hhast-lint -v src/App/",
         "type-check": "hh_client src/App/",
