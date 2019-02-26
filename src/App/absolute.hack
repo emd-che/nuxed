@@ -22,7 +22,6 @@ function kernel(ContainerInterface $container): Kernel\Kernel {
     $container->get(Middleware::class) as Middleware,
     $container->get(Routes::class) as Routes,
   );
-  $extensions = extensions();
   foreach (extensions() as $extension) {
     $kernel->use($extension);
   }
